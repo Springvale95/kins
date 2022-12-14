@@ -20,18 +20,43 @@
         .input {
             color: black;
         }
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding:10px;
+        }
+        th {
+            background-color: #2493df;
+            color:white;
+        }
     </style>
 </head>
 <body>
     <div>
         <h2 class="teks"><center>Think before speak!</center></h2>
         <br />
-        <p>test</p>
         <form id="buy">
             <label class="input" for="input">input</label>
             <input id="input" type="text" id="input">
             <input type="button" value="buy">
         </form>
+        <br/>
+    <table border="1">
+        <tr>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Adults</td>
+            <td>$12</td>
+        </tr>
+        <tr>
+            <td>Children</td>
+            <td>$12</td>
+        </tr>
+    </table>
     </div>
 </body>
 </html>
